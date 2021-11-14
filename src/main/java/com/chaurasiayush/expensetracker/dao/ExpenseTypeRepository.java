@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import com.chaurasiayush.expensetracker.entity.ExpenseType;
 
-//@RepositoryRestResource(path="expense-types")
+@RepositoryRestResource(path="expense-types")
 
 @Repository
 public interface ExpenseTypeRepository extends JpaRepository<ExpenseType, Integer> {
